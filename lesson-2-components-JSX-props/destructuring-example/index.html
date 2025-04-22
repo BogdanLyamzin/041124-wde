@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const getFullName = ({name, lastName}) => { // var {name, lastName} = user
+            // const {name, lastName} = user;
+            return `${name} ${lastName}`;
+        };
+
+        const user = {
+            name: "Bohdan",
+            lastName: "Liamzin",
+            age: 39,
+            birthday: "03.01.1986"
+        };
+        const {name: userName, lastName, age, marriage = false, course} = user;
+        console.log(userName);
+        console.log(lastName);
+        console.log(marriage);
+        console.log(course);
+        console.log(getFullName(user));
+
+        
+        // const userName = user.name;
+        // const lastName = user.lastName;
+        // const age = user.age;
+        // const marriage = user.marriage || false;
+    </script>
+</body>
+</html>

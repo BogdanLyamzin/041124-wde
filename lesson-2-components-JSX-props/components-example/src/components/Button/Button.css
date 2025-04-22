@@ -1,0 +1,18 @@
+.btn {
+    padding: 5px 30px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 2px solid var(--dark-background);
+}
+
+.btn.contained {
+    color: #fff;
+    background-color: var(--dark-background);
+}
+
+.btn.outlined {
+    color: var(--dark-background);
+    background-color: #fff;
+}

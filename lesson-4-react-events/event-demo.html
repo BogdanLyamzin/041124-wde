@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click me</button>
+    <script>
+
+        const btn = document.querySelector("#btn");
+
+        const showTextAter = (text)=> {
+            console.log(text);
+        }
+
+        btn.addEventListener("click", () => showTextAter("message"));
+        /*
+        const func = () => showTextAter("message");
+        btn.addEventListener("click", func);
+        */
+
+        // btn.addEventListener("click", function() {
+        //     console.log("Click to button")
+        // });
+        /*
+        const func = function() {
+            console.log("Click to button")
+        };
+        btn.addEventListener("click", func);
+        */
+       const showTooltip = (event)=> {
+        event.target.insertAdjacentHTML("afterend", "<p>Подсказка</p>")
+       }
+    //    btn.addEventListener("mouseover", showTooltip);
+
+        const user = {
+            name: "Bohdan",
+            lastName: "Liazmin",
+            middleName: "Dmitrievitch",
+            transformNames(callback) {
+                return callback(this.name, this.lastName, this.middleName);
+            }
+        };
+
+        // console.log(user.transformNames((name, lastName, middleName)=> {
+        //     return `${name} ${lastName} ${middleName}`
+        // }));
+        /*
+        const func = (name, lastName, middleName)=> {
+            return `${name} ${lastName} ${middleName}`
+        };
+        console.log(user.transformNames(func));
+        */
+
+        // const getFIO = (name, lastName, middleName) => `${name[0]}${lastName[0]}${middleName[0]}`;
+        // console.log(user.transformNames(getFIO))
+
+
+    </script>
+</body>
+</html>

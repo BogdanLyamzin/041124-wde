@@ -1,0 +1,13 @@
+.list {
+    margin: 25px;
+    padding-left: 15px;
+    list-style: numeric;
+    padding-top: 50px;
+    border: 1px solid;
+}
+
+.item {
+    font-size: 18px;
+    margin-bottom: 15px;
+    border: 1px solid;
+}

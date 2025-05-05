@@ -1,0 +1,28 @@
+.btn {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 13px 14px;
+}
+
+.text, .outlined {
+    color: #274059;
+}
+
+.contained {
+    color: #fff;
+}
+
+.text {
+    border: none;
+    background-color: transparent;
+}
+
+.outlined {
+    border: none;
+    background-color: #fff;
+}
+
+.contained {
+    background-color: #274059;
+}

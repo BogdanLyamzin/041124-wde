@@ -1,0 +1,22 @@
+.form {
+    background-color: #3F5CC0CC;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.field {
+    background-color: #21322E21;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.error {
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 15px;
+}

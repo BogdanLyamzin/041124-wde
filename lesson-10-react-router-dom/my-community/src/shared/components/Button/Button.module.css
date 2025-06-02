@@ -1,0 +1,16 @@
+.btn {
+    cursor: pointer;
+    background-color: #0D3D3066;
+    padding: 9px 11px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-text-color);
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--main-text-color);
+    color: #fff;
+}

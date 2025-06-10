@@ -1,0 +1,1 @@
+export const selectAllPosts = store => store.posts;

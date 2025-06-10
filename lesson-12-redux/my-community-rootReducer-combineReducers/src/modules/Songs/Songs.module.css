@@ -1,0 +1,17 @@
+.list {
+    margin-bottom: 25px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-size: 20px;
+}
+
+.link:hover {
+    border-bottom: 1px solid var(--main-text-color);
+}

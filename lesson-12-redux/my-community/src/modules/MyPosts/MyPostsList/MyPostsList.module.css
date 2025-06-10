@@ -1,0 +1,35 @@
+.post {
+    background-color: #3F5CC0CC;
+    border-radius: 15px;
+    padding: 15px 22px;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    gap: 30px;
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--main-text-color);
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--main-text-color);
+    margin-bottom: 15px;
+}
+
+.leftBlock {
+    text-align: right;
+}
+
+.id {
+    color: var(--main-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}

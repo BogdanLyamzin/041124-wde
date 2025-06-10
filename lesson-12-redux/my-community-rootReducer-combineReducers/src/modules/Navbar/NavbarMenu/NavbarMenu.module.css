@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+}
+
+@media (min-width: 1240px) {
+    .menu {
+        gap: 40px;
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.3s;
+    padding-bottom: 3px;
+}
+
+.link:hover {
+    border-bottom: 2px solid var(--main-text-color);
+}
+
+.link:global(.active) {
+    border-bottom: 2px solid var(--main-text-color);
+}

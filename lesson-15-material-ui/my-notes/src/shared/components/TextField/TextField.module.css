@@ -1,0 +1,25 @@
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.label {
+    width: 80px;
+}
+
+.field {
+    border: 1px solid var(--main-bg-color);
+    padding: 5px;
+}
+
+.error {
+    margin-top: 8px;
+    width: 100%;
+    font-size: 14px;
+    color: red;
+    position: relative;
+    top: -13px;
+}

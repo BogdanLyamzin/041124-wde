@@ -1,0 +1,9 @@
+:root {
+    --main-bg-color: #282c34;
+    --main-text-color: #e4ebf9;
+}
+
+[data-theme="light"] {
+    --main-bg-color: #e4ebf9;
+    --main-text-color: #282c34;
+}

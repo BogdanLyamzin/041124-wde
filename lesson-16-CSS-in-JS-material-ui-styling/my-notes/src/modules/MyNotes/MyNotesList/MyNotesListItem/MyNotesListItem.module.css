@@ -1,0 +1,29 @@
+
+.item {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bcc0c9;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.title.important {
+    font-weight: 700;
+}
+
+.text {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.action {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    cursor: pointer;
+}

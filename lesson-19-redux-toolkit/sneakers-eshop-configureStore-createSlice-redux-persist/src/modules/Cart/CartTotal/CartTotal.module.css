@@ -1,0 +1,18 @@
+.container {
+    min-width: 400px;
+    background-color: #FAFAFA;
+    padding: 26px 28px 43px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    margin-bottom: 21px;
+}

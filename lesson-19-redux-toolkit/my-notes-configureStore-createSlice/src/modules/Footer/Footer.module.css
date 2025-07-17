@@ -1,0 +1,6 @@
+.footer {
+    padding: 20px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+}

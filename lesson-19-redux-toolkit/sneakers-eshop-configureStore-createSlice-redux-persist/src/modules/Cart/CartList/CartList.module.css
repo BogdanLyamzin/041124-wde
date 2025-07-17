@@ -1,0 +1,17 @@
+.list {
+    list-style: none;
+    min-width: 600px;
+    padding: 0;
+}
+
+.item {
+    background-color: #FAFAFA;
+    margin-bottom: 67px;
+    padding: 10px 15px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.item {
+    margin-bottom: 15px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.text.completed {
+    text-decoration: line-through;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+}

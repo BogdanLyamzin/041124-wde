@@ -2,26 +2,26 @@ import { useSelector, useDispatch } from "react-redux";
 
 import Container from "../../shared/components/Container/Container";
 
-import RegisterForm from "./RegisterForm/RegisterForm";
+import LoginForm from "./LoginForm/LoginForm";
 
-import { registerUser } from "../../redux/auth/auth-thunks";
+import { loginUser } from "../../redux/auth/auth-thunks";
 import { selectAuth } from "../../redux/auth/auth-selectors";
 
-const Register = () => {
+const Login = () => {
   const { loading, error } = useSelector(selectAuth);
   const dispatch = useDispatch();
 
-  const onRegiser = (payload) => {
-    dispatch(registerUser(payload));
+  const onLogin = (payload) => {
+    dispatch(loginUser(payload));
   };
 
   return (
     <Container>
-      <RegisterForm submitForm={onRegiser} />
+      <LoginForm submitForm={onLogin} />
       {loading && <p>Loading...</p>}
       {error && <p>Register error: {error}</p>}
     </Container>
   );
 };
 
-export default Register;
+export default Login;

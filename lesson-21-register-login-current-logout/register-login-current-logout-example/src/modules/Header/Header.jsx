@@ -5,9 +5,13 @@ import Container from "../../shared/components/Container/Container";
 import HeaderAuth from "./HeaderAuth/HeaderAuth";
 import HeaderUser from "./HeaderUser/HeaderUser";
 
+import useLogin from "../../shared/hooks/useLogin";
+
 import styles from "./Header.module.css";
 
 const Header = () => {
+  const isLogin = useLogin();
+
   return (
     <header className={styles.header}>
       <Container>
@@ -25,7 +29,7 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
-          <HeaderAuth />
+          {isLogin ? <HeaderUser /> : <HeaderAuth />}
         </div>
       </Container>
     </header>

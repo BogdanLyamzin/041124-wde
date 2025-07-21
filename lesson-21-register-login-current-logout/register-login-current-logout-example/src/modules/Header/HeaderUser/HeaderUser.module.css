@@ -7,6 +7,7 @@
 .email {
     font-size: 18px;
     color: #fff;
+    text-decoration: none;
 }
 
 .logout {

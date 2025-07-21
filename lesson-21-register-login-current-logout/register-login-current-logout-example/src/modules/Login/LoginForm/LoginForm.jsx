@@ -1,9 +1,9 @@
 import { useId } from "react";
 import { useForm } from "react-hook-form";
 
-import styles from "./RegisterForm.module.css";
+import styles from "./LoginForm.module.css";
 
-const RegisterForm = ({submitForm})=> {
+const LoginForm = ({submitForm})=> {
     const {register, handleSubmit, reset, formState: {errors}} = useForm();
 
     const onSubmit = values => {
@@ -25,8 +25,8 @@ const RegisterForm = ({submitForm})=> {
             <input type="password" {...register("password", {required: "Password required"})} placeholder="Password" id={passwordId} />
             {errors.password && <p className={styles.error}>{errors.password.message}</p>}
         </div>
-        <button type="submit">Register</button>
+        <button type="submit">Login</button>
     </form>
 }
 
-export default RegisterForm;
+export default LoginForm;

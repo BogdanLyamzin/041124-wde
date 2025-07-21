@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.link:global(.active) {
+    font-weight: bold;
+}
